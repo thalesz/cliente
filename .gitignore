@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Output directories
+dist/
+build/
+out/
+.cache/
+
+# Vite
+.vite/
+.vitest/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettiercache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.pid.lock
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
